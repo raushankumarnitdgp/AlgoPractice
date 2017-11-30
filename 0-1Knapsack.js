@@ -38,3 +38,5 @@ var knapSackDp = function (dp, W, wt, val, n) {
 }
 
 console.log(knapSackDp(dpArr, W, wt, val, 3));
+// using tabulation method
+
