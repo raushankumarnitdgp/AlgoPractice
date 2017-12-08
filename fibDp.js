@@ -28,7 +28,9 @@ console.log('Time Taken = ',new Date().getTime() - t2);
 var dpTab = [];
 dpTab[1] = 1;
 dpTab[0] = 1;
+t2 = new Date().getTime();
 for(var i=2;i<42;i++) {
-    dpTab[i] = dpTab[i-1] + dpTab[i-2]; 
+    dpTab[i] = dpTab[i-1] + dpTab[i-2];
 }
 console.log('40th Fib is: ',dpTab[40]);
+console.log('Time Taken = ',new Date().getTime() - t2);
